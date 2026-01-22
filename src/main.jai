@@ -23,7 +23,6 @@ layout (location = 0) in vec3 position;
 void main() {
    gl_Position = vec4(position.x, position.y, position.z, 1.0);
 }
-
 END
 
 BASIC_FRAGMENT_SHADER :: #string END
@@ -171,7 +170,7 @@ setup_draw_data :: () -> vao_handle: GLuint, vbo_handle: GLuint, ibo_handle: GLu
 main :: () {
 
 
-    my_window = create_window(window_width, window_height, "tbx_clock");
+    my_window = create_window(window_width, window_height, "mwe_opengl");
     Simp.set_render_target(my_window);
 
 
