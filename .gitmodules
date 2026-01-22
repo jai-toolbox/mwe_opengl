@@ -1,0 +1,3 @@
+[submodule "src/tbx/opengl"]
+	path = src/tbx/opengl
+	url = git@github.com:jai-toolbox/opengl.git
