@@ -69,6 +69,7 @@ main :: () {
     Simp.set_render_target(my_window);
 
 
+    // NOTE: this must come after creating the window or else it will break
 	program_handle, success := create_shader_program(BASIC_VERTEX_SHADER, BASIC_FRAGMENT_SHADER);
 	if !success
         log("shader compilation failed");
